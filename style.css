@@ -1,0 +1,26 @@
+.nav-link {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.jumbotron {
+  background-color: #b3cef1;
+  padding-top: 5rem;
+}
+
+.display-4 {
+  font-weight: 400;
+}
+
+.about h3 {
+  font-size: 20px;
+  padding: 0.5rem 0;
+}
+
+.project {
+  background-color: #b3cef1;
+}
+
+section {
+  padding-top: 6rem;
+}
