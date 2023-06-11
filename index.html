@@ -69,28 +69,45 @@
           <div class="col-md-4 fs-5 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Therefore, I am highly motivated to continue learning and improving my skills. I can work individually or in a team, and can manage time well so that I can complete work according to predetermined deadlines.</p>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-              <h3>HTML</h3>
-              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
-                <div class="progress-bar bg-info" style="width: 50%"></div>
+        </div>
+      </div>
+
+      <section id="my-tools">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Tools</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-3">
+              <div class="tools-box">
+                <h4 class="tools-name">HTML</h4>
+                <img src="img/tools/html.png" alt="html" class="tools-img" />
               </div>
-              <h3>CSS</h3>
-              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
-                <div class="progress-bar bg-info" style="width: 50%"></div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <div class="tools-box">
+                <h4 class="tools-name">CSS</h4>
+                <img src="img/tools/css.png" alt="css" class="tools-img" />
               </div>
-              <h3>Bootstrap</h3>
-              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
-                <div class="progress-bar bg-info" style="width: 50%"></div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <div class="tools-box">
+                <h4 class="tools-name">Javascript</h4>
+                <img src="img/tools/js.png" alt="js" class="tools-img" />
               </div>
-              <h3>Javascript</h3>
-              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
-                <div class="progress-bar bg-info" style="width: 50%"></div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <div class="tools-box">
+                <h4 class="tools-name">Bootstrap</h4>
+                <img src="img/tools/boot.png" alt="bootstrap" class="tools-img" />
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#b3cef1"
@@ -282,6 +299,14 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script type="text/javascript" src="js/raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".tools-box"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
       });
     </script>
   </body>
